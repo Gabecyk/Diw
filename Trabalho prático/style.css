@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@media (max-width: 600px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .perfil > img{
+        display: none;
+        
+    }
+
+    body {
+        margin: 0px;
+    }
+
+    main {
+        margin: 0%;
+    }
+
+    #carouselExampleControls {
+        margin: auto;
+    }
+
+  }
+
+  
+
+      
+      * {
+          margin: 0px;
+          padding: 0px;
+        }
+        
+        body {
+            margin: 0px;
+        }
+        
+        header {
+            background-image: linear-gradient(to top,  #131613, #302525);
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+            
+        }
+        
+        header > nav {
+            padding: 10px;
+        }
+        
+        header > h1 {
+            color: white;
+        }
+        
+        header > nav > a {
+            text-decoration: none;
+            padding: 10px;
+            color: white;
+        }
+        
+        header > nav > a:hover{
+            background-color: rgb(56, 57, 58);
+            border-radius: 5px;
+            padding-left: 10px;
+        }
+        
+        nav .perfil {
+            margin: auto;
+        }
+        
+        
+        
+        .carrousel {
+            margin: auto 400px;
+            
+        }
+        
+        .perfil {
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .perfil > section {
+            background-color: rgb(255, 255, 255);
+            padding: 50px;
+            
+        }
+        
+        .perfil > p {
+            text-align: justify;
+        }
+        
+        .h1 {
+            padding-top: 50px;
+            
+        }
+        
+        .repositorio {
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        
+        
+        .cardre {
+            padding: 0px 20px 0px 20px;
+            
+        }
+        
+        aside {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .cardco {
+            padding: 0px 20px 0px 20px;
+            padding-bottom: 20px;
+        }
+        
+        div > .cardco > p > a {
+            text-decoration: none;
+            justify-content: center;
+        }
+        
+        footer {
+    background-color: #302525;
+    padding-top: 20px;
+    
+}
+
+footer > p {
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+    
+}
